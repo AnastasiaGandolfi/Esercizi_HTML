@@ -10,9 +10,28 @@
     <title>HTML Lesson</title>
   </head>
   <body>
-    <button>I'm a disabled button</button>
-    <input type="number" min="0" max="100" step="2">
-    <input type="checkbox" checked> Do you like HTML?
-    <input type="date">
+    <form>
+      <div>
+        <button disabled>I'm a disabled button</button>
+      </div>
+      <br>
+      <div>
+        <label for="number">Even numbers from 0 to 100 </label>
+        <br>
+        <input autofocus type="number" name="number" min="0" max="100" step="2">
+      </div>
+      <br>
+      <div>
+        <label for="selected">I'm already selected</label>
+        <br>
+        <input type="checkbox" name="selected" checked>
+      </div>
+      <br>
+      <div>
+        <label for="date">What day is it today? </label>
+        <br>
+        <input type="date">
+      </div>
+    </form>
   </body>
 </html>
